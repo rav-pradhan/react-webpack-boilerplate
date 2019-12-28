@@ -2,6 +2,7 @@
   "name": "webpack-react-boilerplate",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "webpack.config.js",
   "dependencies": {
     "webpack": "^4.41.5",
@@ -17,7 +18,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "webpack --mode production --config ./webpack.config.js",
-    "dev": "webpack --mode development --config ./webpack.config.js"
+    "dev": "webpack --mode development --config ./webpack.config.js --watch"
   },
   "keywords": [],
   "author": "",
