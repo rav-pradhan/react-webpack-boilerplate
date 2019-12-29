@@ -1,6 +1,6 @@
 # Webpack 4 Boilerplate (WIP)
 
-A simple, minimal React Webpack boilerplate. Once complete this boilerplate will include configs for:
+One of many React Webpack boilerplates out there in the world. Updating this repo with each of the following listed below as a means to learn about Webpack and setting up projects from sratch. Once complete this boilerplate will include configs for:
 
 - React
 - Unit Tests (Jest)
