@@ -1,6 +1,15 @@
 .main {
-  text-align: center;
-  font-family: sans-serif;
+
+  &__container {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+  }
+
+  &__content {
+    height: 90vh;
+  }
 
   &__title {
     color: purple;
