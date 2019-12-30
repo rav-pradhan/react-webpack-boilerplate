@@ -1,14 +1,10 @@
 .main {
 
   &__container {
-    max-width: 900px;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     font-family: sans-serif;
-  }
-
-  &__content {
-    height: 90vh;
   }
 
   &__title {
