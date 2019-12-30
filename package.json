@@ -39,7 +39,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prod": "webpack --mode production --config ./webpack.prod.js",
-    "dev": "webpack-dev-server --config ./webpack.dev.js --open",
+    "dev": "webpack-dev-server --config ./webpack.dev.js --open --hot",
     "lint": "eslint \"**/*.{js,jsx}\" --ignore-path .gitignore .",
     "lint:fix": "eslint \"**/*.{js,jsx}\" --ignore-path .gitignore . --fix"
   },
