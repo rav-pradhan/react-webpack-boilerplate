@@ -1,12 +1,7 @@
-const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/main.js',
-  output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
-  },
   module: {
     rules: [
       {
@@ -15,11 +10,15 @@ module.exports = {
         exclude: /node_modules/,
       },
       {
-        test: /\.s[ac]ss$/i,
+        test: /\.(svg|png|jpe?g|gif)$/i,
         use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader',
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[hash].[ext]',
+              outputPath: 'assets/imgs',
+            },
+          },
         ],
       },
     ],

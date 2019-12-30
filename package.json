@@ -6,7 +6,9 @@
   "main": "webpack.config.js",
   "dependencies": {
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack-merge": "^4.2.2"
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
@@ -22,7 +24,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^1.7.0",
-    "html-webpack-plugin": "^3.2.0",
+    "file-loader": "^5.0.2",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.1.2",
@@ -32,8 +34,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prod": "webpack --mode production --config ./webpack.config.js",
-    "dev": "webpack-dev-server --config ./webpack.config.js --open",
+    "prod": "webpack --mode production --config ./webpack.prod.js",
+    "dev": "webpack-dev-server --config ./webpack.dev.js --open",
     "lint": "eslint \"**/*.{js,jsx}\" --ignore-path .gitignore .",
     "lint:fix": "eslint \"**/*.{js,jsx}\" --ignore-path .gitignore . --fix"
   },
