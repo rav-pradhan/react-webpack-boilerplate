@@ -1,8 +1,9 @@
 import React from 'react';
+import './App.scss';
 
 const App = () => (
-  <div style={{ textAlign: 'center', fontFamily: 'sans-serif' }}>
-    <h1>React Webpack Boilerplate</h1>
+  <div className="main">
+    <h1 className="main__title">React Webpack Boilerplate</h1>
     <p>This is one of many React Webpack boilerplates out there on the web.</p>
   </div>
 );
