@@ -8,4 +8,5 @@ One of many React Webpack boilerplates out there in the world. Updating this rep
 - HMR (Hot Module Replacement)
 - Sass
 - ESLint
-- Production/Dev optimisations
+- Dev script (spin up a server and bundle)
+- Prod script (css/js minification, content hashing)
