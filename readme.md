@@ -1,6 +1,6 @@
-# Webpack 4 Boilerplate (WIP)
+# Webpack 4 Boilerplate
 
-One of many React Webpack boilerplates out there in the world. Updating this repo with each of the following listed below as a means to learn about Webpack and setting up projects from sratch. Once complete this boilerplate will include configs for:
+One of many React Webpack boilerplates out there in the world. This one comes with:
 
 - React
 - Unit Tests (Jest)
@@ -10,3 +10,25 @@ One of many React Webpack boilerplates out there in the world. Updating this rep
 - ESLint
 - Dev script (spin up a server and bundle)
 - Prod script (css/js minification, content hashing)
+
+## Installation and Usage
+
+Clone the project and run `npm install`.
+
+### Unit Tests
+
+```sh
+npm run test
+```
+
+### Development
+
+```sh
+npm run dev
+```
+
+### Production
+
+```sh
+npm run prod
+```
